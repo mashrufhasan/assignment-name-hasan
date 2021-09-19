@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+*{margin: 0;padding: 0;}
+a{
+text-decoration: none;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+}
+.span{
+    
+}
+.maincontent{
+width: 100%;
+height: 100vh;
+position: relative;
+}
+.position{
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mother{
+background: green;
+width: 500px;
+height: 350px;
+position: relative;
+}
+.child{
+background: red;
+width: 200px;
+height: 200px;
+border-radius: 100%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 0;
+}
+.title{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 1;
+}
+.social-media{
+text-align: center;
+}
+ul.social-icon li{
+list-style: none;
+display: inline-block;
+}
+ul.social-icon li a .fa {
+color: #fff;
+width: 44px;
+height: 44px;
+display:block;
+line-height: 44px;
+font-size: 22px;
+border-radius: 50%;
+}
+.fa-facebook{background: #0F91F3;}
+.fa-instagram{background: #8a3ab9;}
+.fa-twitter{background: #1DA1F2;}
+.fa-google-plus{background: #009e31;}
+.fa-youtube{background: #FF0000;}
+
+.social-media1{
+    position: fixed;
+    top: 30%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.social-media1 a {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 8px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #fff;
+    text-align: right;
+    border-radius: 0 50px 50px 0;
+    transition: all 1s;
+    transform: translate(-150px, 0px);
+}
+.social-media1 a:hover{
+     transform: translate(0px, 0px);
+}
+.social-media1 a:hover i{
+    transform: rotate(360deg);
+}
+.social-media1 a i {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #fff;
+    border-radius: 100%;
+    transition: all 1s;
+}
+.fa-facebook{color: #2C80D3;}
+.fa-instagram{color: #8a3ab4;}
+.fa-twitter{color: #1DA1F2;}
+.fa-google-plus{color: #db4a39;}
+
+.facebook{
+background:     #2C80D3;
+}
+.twitter{
+background:  #1DA1F2;;
+}
+.instagram{
+background: #833AB4;
+}
+.google-plus{
+background: #db4a39;
+}
